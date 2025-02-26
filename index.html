@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav class="nav">
+            <div>
+                <img src="c2-assets/logo-header.png" alt="">
+            </div>
+            <div class="flex">
+                <p>Product</p>
+                <p>Services</p>
+                <p>Contact us</p>
+            </div>
+            <div class="flex">
+                <i class="fa-regular fa-magnifying-glass-location"></i>
+                <i class="fa-regular fa-cart-circle-exclamation"></i>
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+        </nav>
         <div class="justify-items-center ">
             <div>
                 <h1 class="text-5xl text-center">Freshness <span class="text-green-700">You Can <br> Count</span> On, Prices You’ll Love!</h1>
@@ -57,8 +74,87 @@
         </div>
         
 
-    </header>
-    <main></main>
-    <footer></footer>
+    </header> 
+    <main">
+        <p class="text-green-700 mt-5 pl-2 text-2xl">Popular Products</p>
+        <section>
+           <div class="bg-gradient-to bg-green-600 from bg-white w-80 h-95">
+            <p>30% off</p>
+            <p>Discover a world of treats,toys,and <br>essentials handpicked for</p>
+            <button class="Button">Buy Now</button>
+            <div>
+                <img src="c2-assets/vegetable-offer.png" alt="">
+            </div>
+           </div>
+            
+        </section>
+        <section>
+            <p class="text-3xl text-green-600">Arrival & Offers</p>
+            <div class="main-2">
+                <div class="daawat-1">
+                    <div class="daawat-banner">
+                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <button class="daawat-button m-5  ">Cook Exotic Dishes</button>
+                        <p class="text-white text-2xl">UP to <span class="text-3xl">20% OFF</span></p>
+                       
+                    </div>
+                    <div>
+                        <img class="w-60 h-70 pt-10 " src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+    
+                </div>
+                <div class="daawat-2">
+                    <div class="daawat-india">
+                        <img class="w-13 h-19" src="c2-assets/india-gate-logo.png" alt="">
+                        <button class="india-button m-5  ">World’s No.1 Rice</button>
+                        <p class="text-white text-2xl">UP to <span class="text-3xl">40% OFF</span></p>
+                       
+                    </div>
+                    <div>
+                        <img class="w-30 h-40 pt-10 " src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <section class="vegetable-basket">
+            <div>
+                <img class="w-90 h-80" src="c2-assets/vegetable-busket.png" alt="">
+            </div>
+            <div>
+                <p class="text-4xl font-bold">Get Grocery News!</p>
+                <p>Exclusive training tips, ticks, product deals and more.</p>
+                <input class="placeholder" type="email" placeholder="Enter email"> <br>
+                <button class="Subscribe">Subscribe</button>
+            </div>
+        </section>
+        <section class="footer-last">
+            <div class="pb-10">
+                <div class="nature">
+                    <img  class="text-white fill-white" src="c2-assets/logo-header.png"
+                 alt="">
+                 <!-- <p>nature's <br> platter</p> -->
+                </div>
+                 <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+            </div>
+            <div class="pb-10">
+                <p class="pb-2">Product</p>
+                <p class="pb-2">Services</p>
+                <p>Contact us</p>
+            </div>
+            <div>
+                <p>Follow Us</p>
+                <div class="icon pb-10">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
